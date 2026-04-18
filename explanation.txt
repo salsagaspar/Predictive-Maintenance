@@ -1,0 +1,30 @@
+Based on the `App.jsx` code in this project, this project is an AI-Based Predictive Maintenance System Dashboard for Industrial Machinery.
+
+Specifically, this is an interactive user interface (UI) application that monitors the health of factory machinery in real-time. Here are the main points of this project:
+
+**1. Digital Twin**
+There is a visualization of the machine (its digital twin) running and moving, which integrates the health of each specific machine component (Motor, *Coupling*, *Bearing*, *Impeller*, *Mechanical Seal*).
+
+**2. Real-Time Sensor Simulation**
+This application reads (or simulates) live data from industrial sensors, such as:
+* Vibration** (Vibration - very important in mechanics)
+* Temperature & Oil Temperature** (Engine and oil temperature)
+* Pressure** (Pressure bar)
+* RPM** & Current** (Rotation speed and electric current)
+
+3. Health Evaluation & Life Prediction (RUL)**
+Automatically calculates Equipment Health* (Health Percentage) and Remaining Effective Life (RUL) (predicting the remaining life of the machine before failure).
+
+4. Machine Learning & Automated Anomaly Analysis**
+This project showcases advanced artificial intelligence (Ensemble ML) features using a combination of three machine learning models: LSTM Autoencoder, Isolation Forest, and One-Class SVM. * Also equipped with SHAP (Explainable AI) metrics—so when an anomaly is detected, the AI ​​can explain which sensor is the culprit (e.g., "Anomaly due to excessive vibration").
+
+5. Advanced Signal Analysis (FFT Spectrum)
+Includes a Fast Fourier Transform (FFT) waveform graph. This graph is used by vibration technicians in the real world to find very specific defects such as bearing track defects (BPFO, BPFI).
+
+6. Recommended Actions & Cost Analysis
+Upon detecting a problem (especially when you activate the "Inject Fault" button), the system will:
+* Automatically prioritize Work Orders (repair orders).
+* Perform Root Cause Analysis (Root Cause Analysis).
+* Calculate Cost Impact, which displays an estimated picture of the money that can be saved by preventing a total machine breakdown through early detection.
+
+**Bottom Line:** This project is a very comprehensive and impressive presentation/demo on how modern industry (Industry 4.0) uses AI and signal sensors to prevent factory equipment failure!
